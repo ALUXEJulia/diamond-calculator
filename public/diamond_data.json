@@ -7,21 +7,9 @@
   },
   {
     "caratRange": "0.40-0.49ct",
-    "color": "0.50-0.69ct",
-    "clarity": "IF",
-    "usdPerCt": "IF"
-  },
-  {
-    "caratRange": "0.40-0.49ct",
     "color": "D",
     "clarity": "IF",
     "usdPerCt": 940
-  },
-  {
-    "caratRange": "0.50-0.69ct",
-    "color": "1.00-1.99ct",
-    "clarity": "IF",
-    "usdPerCt": "IF"
   },
   {
     "caratRange": "0.50-0.69ct",
@@ -31,21 +19,9 @@
   },
   {
     "caratRange": "0.70-0.99ct",
-    "color": "3.00-3.99ct",
-    "clarity": "IF",
-    "usdPerCt": "IF"
-  },
-  {
-    "caratRange": "0.70-0.99ct",
     "color": "D",
     "clarity": "IF",
     "usdPerCt": 6600
-  },
-  {
-    "caratRange": "1.00-1.49ct",
-    "color": "5.00-5.99ct",
-    "clarity": "IF",
-    "usdPerCt": "IF"
   },
   {
     "caratRange": "1.00-1.49ct",
@@ -73,12 +49,6 @@
   },
   {
     "caratRange": "0.40-0.49ct",
-    "color": "0.50-0.69ct",
-    "clarity": "VVS1",
-    "usdPerCt": "VVS1"
-  },
-  {
-    "caratRange": "0.40-0.49ct",
     "color": "D",
     "clarity": "VVS1",
     "usdPerCt": 780
@@ -94,12 +64,6 @@
     "color": "F",
     "clarity": "VVS1",
     "usdPerCt": 780
-  },
-  {
-    "caratRange": "0.50-0.69ct",
-    "color": "1.00-1.99ct",
-    "clarity": "VVS1",
-    "usdPerCt": "VVS1"
   },
   {
     "caratRange": "0.50-0.69ct",
@@ -121,12 +85,6 @@
   },
   {
     "caratRange": "0.70-0.99ct",
-    "color": "3.00-3.99ct",
-    "clarity": "VVS1",
-    "usdPerCt": "VVS1"
-  },
-  {
-    "caratRange": "0.70-0.99ct",
     "color": "D",
     "clarity": "VVS1",
     "usdPerCt": 1980
@@ -142,12 +100,6 @@
     "color": "F",
     "clarity": "VVS1",
     "usdPerCt": 1660
-  },
-  {
-    "caratRange": "1.00-1.49ct",
-    "color": "5.00-5.99ct",
-    "clarity": "VVS1",
-    "usdPerCt": "VVS1"
   },
   {
     "caratRange": "1.00-1.49ct",
@@ -187,12 +139,6 @@
   },
   {
     "caratRange": "0.40-0.49ct",
-    "color": "0.50-0.69ct",
-    "clarity": "VVS2",
-    "usdPerCt": "VVS2"
-  },
-  {
-    "caratRange": "0.40-0.49ct",
     "color": "D",
     "clarity": "VVS2",
     "usdPerCt": 700
@@ -220,12 +166,6 @@
     "color": "F Intense Pink",
     "clarity": "VVS2",
     "usdPerCt": 1875
-  },
-  {
-    "caratRange": "0.50-0.69ct",
-    "color": "1.00-1.99ct",
-    "clarity": "VVS2",
-    "usdPerCt": "VVS2"
   },
   {
     "caratRange": "0.50-0.69ct",
@@ -280,12 +220,6 @@
     "color": "F Intense Yellow",
     "clarity": "VVS2",
     "usdPerCt": 1120
-  },
-  {
-    "caratRange": "0.70-0.99ct",
-    "color": "3.00-3.99ct",
-    "clarity": "VVS2",
-    "usdPerCt": "VVS2"
   },
   {
     "caratRange": "0.70-0.99ct",
@@ -340,12 +274,6 @@
     "color": "F Intense Yellow",
     "clarity": "VVS2",
     "usdPerCt": 1320
-  },
-  {
-    "caratRange": "1.00-1.49ct",
-    "color": "5.00-5.99ct",
-    "clarity": "VVS2",
-    "usdPerCt": "VVS2"
   },
   {
     "caratRange": "1.00-1.49ct",
@@ -421,12 +349,6 @@
   },
   {
     "caratRange": "0.40-0.49ct",
-    "color": "0.50-0.69ct",
-    "clarity": "VS1",
-    "usdPerCt": "VS1"
-  },
-  {
-    "caratRange": "0.40-0.49ct",
     "color": "D",
     "clarity": "VS1",
     "usdPerCt": 700
@@ -454,12 +376,6 @@
     "color": "F Intense Pink",
     "clarity": "VS1",
     "usdPerCt": 1875
-  },
-  {
-    "caratRange": "0.50-0.69ct",
-    "color": "1.00-1.99ct",
-    "clarity": "VS1",
-    "usdPerCt": "VS1"
   },
   {
     "caratRange": "0.50-0.69ct",
@@ -514,12 +430,6 @@
     "color": "F Intense Yellow",
     "clarity": "VS1",
     "usdPerCt": 1120
-  },
-  {
-    "caratRange": "0.70-0.99ct",
-    "color": "3.00-3.99ct",
-    "clarity": "VS1",
-    "usdPerCt": "VS1"
   },
   {
     "caratRange": "0.70-0.99ct",
@@ -574,12 +484,6 @@
     "color": "F Intense Yellow",
     "clarity": "VS1",
     "usdPerCt": 1320
-  },
-  {
-    "caratRange": "1.00-1.49ct",
-    "color": "5.00-5.99ct",
-    "clarity": "VS1",
-    "usdPerCt": "VS1"
   },
   {
     "caratRange": "1.00-1.49ct",
@@ -655,12 +559,6 @@
   },
   {
     "caratRange": "0.40-0.49ct",
-    "color": "0.50-0.69ct",
-    "clarity": "VS2",
-    "usdPerCt": "VS2"
-  },
-  {
-    "caratRange": "0.40-0.49ct",
     "color": "D",
     "clarity": "VS2",
     "usdPerCt": 680
@@ -688,12 +586,6 @@
     "color": "F Intense Pink",
     "clarity": "VS2",
     "usdPerCt": 1875
-  },
-  {
-    "caratRange": "0.50-0.69ct",
-    "color": "1.00-1.99ct",
-    "clarity": "VS2",
-    "usdPerCt": "VS2"
   },
   {
     "caratRange": "0.50-0.69ct",
@@ -748,12 +640,6 @@
     "color": "F Intense Yellow",
     "clarity": "VS2",
     "usdPerCt": 1120
-  },
-  {
-    "caratRange": "0.70-0.99ct",
-    "color": "3.00-3.99ct",
-    "clarity": "VS2",
-    "usdPerCt": "VS2"
   },
   {
     "caratRange": "0.70-0.99ct",
@@ -808,12 +694,6 @@
     "color": "F Intense Yellow",
     "clarity": "VS2",
     "usdPerCt": 1320
-  },
-  {
-    "caratRange": "1.00-1.49ct",
-    "color": "5.00-5.99ct",
-    "clarity": "VS2",
-    "usdPerCt": "VS2"
   },
   {
     "caratRange": "1.00-1.49ct",

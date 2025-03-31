@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import './App.css';
 
 export default function App() {
-  const [carat, setCarat] = useState(0.35);
+  const [carat, setCarat] = useState(1.00);
   const [rate, setRate] = useState(32.5);
   const [data, setData] = useState([]);
   const [color, setColor] = useState("");
@@ -19,26 +19,27 @@ export default function App() {
       });
   }, []);
 
-  const getCaratRange = (c) => {
-    if (c >= 0.3 && c < 0.4) return "0.30-0.39ct";
-    if (c >= 0.4 && c < 0.5) return "0.40-0.49ct";
-    if (c >= 0.5 && c < 0.7) return "0.50-0.69ct";
-    if (c >= 0.7 && c < 1.0) return "0.70-0.99ct";
-    if (c >= 1.0 && c < 1.5) return "1.00-1.49ct";
-    if (c >= 1.5 && c < 2.0) return "1.50-1.99ct";
-    if (c >= 2.0 && c < 3.0) return "2.00-2.99ct";
-    if (c >= 3.0 && c < 5.0) return "3.00-3.99ct";
-    if (c >= 5.0) return "5.00ct+";
-    return null;
+  const getCaratMinMax = (range) => {
+    const match = range.match(/(\d+(\.\d+)?)-(\d+(\.\d+)?)/);
+    if (match) {
+      return [parseFloat(match[1]), parseFloat(match[3])];
+    } else if (range.includes("ct+")) {
+      return [parseFloat(range), Infinity];
+    }
+    return [0, 0];
   };
 
-  const range = getCaratRange(carat);
-  const match = data.find((d) => d.caratRange === range && d.color === color && d.clarity === clarity);
+  const candidates = data.filter((d) => d.color === color && d.clarity === clarity);
+  const match = candidates.find((d) => {
+    const [min, max] = getCaratMinMax(d.caratRange.replace('ct', ''));
+    return carat >= min && carat <= max;
+  });
+
   const usdPerCt = match ? match.usdPerCt : null;
   const price = match ? Math.round(usdPerCt * rate * carat) : null;
 
-  const uniqueColors = [...new Set(data.filter(d => d.caratRange === range).map((d) => d.color))];
-  const uniqueClarities = [...new Set(data.filter(d => d.caratRange === range && d.color === color).map((d) => d.clarity))];
+  const uniqueColors = [...new Set(data.map((d) => d.color))];
+  const uniqueClarities = [...new Set(data.filter(d => d.color === color).map((d) => d.clarity))];
 
   return (
     <div className="container">
@@ -75,7 +76,7 @@ export default function App() {
           {match ? (
             <>
               <p>每克拉價格 (USD): <strong>{usdPerCt}</strong></p>
-              <p>計算區間: <strong>{range}</strong></p>
+              <p>計算區間: <strong>{match.caratRange}</strong></p>
               <p className="price">售價 (TWD): <strong>{price.toLocaleString()} 元</strong></p>
             </>
           ) : (
