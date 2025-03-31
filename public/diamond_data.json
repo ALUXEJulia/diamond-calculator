@@ -1,0 +1,872 @@
+[
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "D",
+    "clarity": "IF",
+    "usdPerCt": 1380
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "0.50-0.69ct",
+    "clarity": "IF",
+    "usdPerCt": "IF"
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "D",
+    "clarity": "IF",
+    "usdPerCt": 940
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "1.00-1.99ct",
+    "clarity": "IF",
+    "usdPerCt": "IF"
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "D",
+    "clarity": "IF",
+    "usdPerCt": 1060
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "3.00-3.99ct",
+    "clarity": "IF",
+    "usdPerCt": "IF"
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "D",
+    "clarity": "IF",
+    "usdPerCt": 6600
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "5.00-5.99ct",
+    "clarity": "IF",
+    "usdPerCt": "IF"
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "D",
+    "clarity": "IF",
+    "usdPerCt": 27900
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "D",
+    "clarity": "VVS1",
+    "usdPerCt": 900
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "E",
+    "clarity": "VVS1",
+    "usdPerCt": 900
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "F",
+    "clarity": "VVS1",
+    "usdPerCt": 900
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "0.50-0.69ct",
+    "clarity": "VVS1",
+    "usdPerCt": "VVS1"
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "D",
+    "clarity": "VVS1",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "E",
+    "clarity": "VVS1",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F",
+    "clarity": "VVS1",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "1.00-1.99ct",
+    "clarity": "VVS1",
+    "usdPerCt": "VVS1"
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "D",
+    "clarity": "VVS1",
+    "usdPerCt": 820
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "E",
+    "clarity": "VVS1",
+    "usdPerCt": 760
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F",
+    "clarity": "VVS1",
+    "usdPerCt": 760
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "3.00-3.99ct",
+    "clarity": "VVS1",
+    "usdPerCt": "VVS1"
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "D",
+    "clarity": "VVS1",
+    "usdPerCt": 1980
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "E",
+    "clarity": "VVS1",
+    "usdPerCt": 1660
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F",
+    "clarity": "VVS1",
+    "usdPerCt": 1660
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "5.00-5.99ct",
+    "clarity": "VVS1",
+    "usdPerCt": "VVS1"
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "D",
+    "clarity": "VVS1",
+    "usdPerCt": 5700
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "E",
+    "clarity": "VVS1",
+    "usdPerCt": 2940
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F",
+    "clarity": "VVS1",
+    "usdPerCt": 2940
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "D",
+    "clarity": "VVS2",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "E",
+    "clarity": "VVS2",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "F",
+    "clarity": "VVS2",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "0.50-0.69ct",
+    "clarity": "VVS2",
+    "usdPerCt": "VVS2"
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "D",
+    "clarity": "VVS2",
+    "usdPerCt": 700
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "E",
+    "clarity": "VVS2",
+    "usdPerCt": 680
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F",
+    "clarity": "VVS2",
+    "usdPerCt": 680
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F Vivid Pink",
+    "clarity": "VVS2",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F Intense Pink",
+    "clarity": "VVS2",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "1.00-1.99ct",
+    "clarity": "VVS2",
+    "usdPerCt": "VVS2"
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "D",
+    "clarity": "VVS2",
+    "usdPerCt": 700
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "E",
+    "clarity": "VVS2",
+    "usdPerCt": 660
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F",
+    "clarity": "VVS2",
+    "usdPerCt": 660
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Vivid Pink",
+    "clarity": "VVS2",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Intense Pink",
+    "clarity": "VVS2",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Vivid Blue",
+    "clarity": "VVS2",
+    "usdPerCt": 1240
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Intense Blue",
+    "clarity": "VVS2",
+    "usdPerCt": 1240
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Vivid Yellow",
+    "clarity": "VVS2",
+    "usdPerCt": 1120
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Intense Yellow",
+    "clarity": "VVS2",
+    "usdPerCt": 1120
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "3.00-3.99ct",
+    "clarity": "VVS2",
+    "usdPerCt": "VVS2"
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "D",
+    "clarity": "VVS2",
+    "usdPerCt": 960
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "E",
+    "clarity": "VVS2",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F",
+    "clarity": "VVS2",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Vivid Pink",
+    "clarity": "VVS2",
+    "usdPerCt": 2550
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Intense Pink",
+    "clarity": "VVS2",
+    "usdPerCt": 2550
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Vivid Blue",
+    "clarity": "VVS2",
+    "usdPerCt": 1650
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Intense Blue",
+    "clarity": "VVS2",
+    "usdPerCt": 1650
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Vivid Yellow",
+    "clarity": "VVS2",
+    "usdPerCt": 1320
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Intense Yellow",
+    "clarity": "VVS2",
+    "usdPerCt": 1320
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "5.00-5.99ct",
+    "clarity": "VVS2",
+    "usdPerCt": "VVS2"
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "D",
+    "clarity": "VVS2",
+    "usdPerCt": 1980
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "E",
+    "clarity": "VVS2",
+    "usdPerCt": 1020
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F",
+    "clarity": "VVS2",
+    "usdPerCt": 1020
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Vivid Pink",
+    "clarity": "VVS2",
+    "usdPerCt": 2925
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Intense Pink",
+    "clarity": "VVS2",
+    "usdPerCt": 2925
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Vivid Blue",
+    "clarity": "VVS2",
+    "usdPerCt": 2065
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Intense Blue",
+    "clarity": "VVS2",
+    "usdPerCt": 2065
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Vivid Yellow",
+    "clarity": "VVS2",
+    "usdPerCt": 1800
+  },
+  {
+    "caratRange": "1.50-1.99ct",
+    "color": "F Intense Yellow",
+    "clarity": "VVS2",
+    "usdPerCt": 1800
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "D",
+    "clarity": "VS1",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "E",
+    "clarity": "VS1",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "F",
+    "clarity": "VS1",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "0.50-0.69ct",
+    "clarity": "VS1",
+    "usdPerCt": "VS1"
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "D",
+    "clarity": "VS1",
+    "usdPerCt": 700
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "E",
+    "clarity": "VS1",
+    "usdPerCt": 680
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F",
+    "clarity": "VS1",
+    "usdPerCt": 680
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F Vivid Pink",
+    "clarity": "VS1",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F Intense Pink",
+    "clarity": "VS1",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "1.00-1.99ct",
+    "clarity": "VS1",
+    "usdPerCt": "VS1"
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "D",
+    "clarity": "VS1",
+    "usdPerCt": 700
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "E",
+    "clarity": "VS1",
+    "usdPerCt": 660
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F",
+    "clarity": "VS1",
+    "usdPerCt": 660
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Vivid Pink",
+    "clarity": "VS1",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Intense Pink",
+    "clarity": "VS1",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Vivid Blue",
+    "clarity": "VS1",
+    "usdPerCt": 1240
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Intense Blue",
+    "clarity": "VS1",
+    "usdPerCt": 1240
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Vivid Yellow",
+    "clarity": "VS1",
+    "usdPerCt": 1120
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Intense Yellow",
+    "clarity": "VS1",
+    "usdPerCt": 1120
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "3.00-3.99ct",
+    "clarity": "VS1",
+    "usdPerCt": "VS1"
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "D",
+    "clarity": "VS1",
+    "usdPerCt": 800
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "E",
+    "clarity": "VS1",
+    "usdPerCt": 720
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F",
+    "clarity": "VS1",
+    "usdPerCt": 720
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Vivid Pink",
+    "clarity": "VS1",
+    "usdPerCt": 2550
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Intense Pink",
+    "clarity": "VS1",
+    "usdPerCt": 2550
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Vivid Blue",
+    "clarity": "VS1",
+    "usdPerCt": 1650
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Intense Blue",
+    "clarity": "VS1",
+    "usdPerCt": 1650
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Vivid Yellow",
+    "clarity": "VS1",
+    "usdPerCt": 1320
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Intense Yellow",
+    "clarity": "VS1",
+    "usdPerCt": 1320
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "5.00-5.99ct",
+    "clarity": "VS1",
+    "usdPerCt": "VS1"
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "D",
+    "clarity": "VS1",
+    "usdPerCt": 1500
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "E",
+    "clarity": "VS1",
+    "usdPerCt": 880
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F",
+    "clarity": "VS1",
+    "usdPerCt": 880
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Vivid Pink",
+    "clarity": "VS1",
+    "usdPerCt": 2925
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Intense Pink",
+    "clarity": "VS1",
+    "usdPerCt": 2925
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Vivid Blue",
+    "clarity": "VS1",
+    "usdPerCt": 2065
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Intense Blue",
+    "clarity": "VS1",
+    "usdPerCt": 2065
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Vivid Yellow",
+    "clarity": "VS1",
+    "usdPerCt": 1800
+  },
+  {
+    "caratRange": "1.50-1.99ct",
+    "color": "F Intense Yellow",
+    "clarity": "VS1",
+    "usdPerCt": 1800
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "D",
+    "clarity": "VS2",
+    "usdPerCt": 760
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "E",
+    "clarity": "VS2",
+    "usdPerCt": 740
+  },
+  {
+    "caratRange": "0.30-0.39ct",
+    "color": "F",
+    "clarity": "VS2",
+    "usdPerCt": 740
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "0.50-0.69ct",
+    "clarity": "VS2",
+    "usdPerCt": "VS2"
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "D",
+    "clarity": "VS2",
+    "usdPerCt": 680
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "E",
+    "clarity": "VS2",
+    "usdPerCt": 660
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F",
+    "clarity": "VS2",
+    "usdPerCt": 660
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F Vivid Pink",
+    "clarity": "VS2",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.40-0.49ct",
+    "color": "F Intense Pink",
+    "clarity": "VS2",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "1.00-1.99ct",
+    "clarity": "VS2",
+    "usdPerCt": "VS2"
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "D",
+    "clarity": "VS2",
+    "usdPerCt": 680
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "E",
+    "clarity": "VS2",
+    "usdPerCt": 660
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F",
+    "clarity": "VS2",
+    "usdPerCt": 660
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Vivid Pink",
+    "clarity": "VS2",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Intense Pink",
+    "clarity": "VS2",
+    "usdPerCt": 1875
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Vivid Blue",
+    "clarity": "VS2",
+    "usdPerCt": 1240
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Intense Blue",
+    "clarity": "VS2",
+    "usdPerCt": 1240
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Vivid Yellow",
+    "clarity": "VS2",
+    "usdPerCt": 1120
+  },
+  {
+    "caratRange": "0.50-0.69ct",
+    "color": "F Intense Yellow",
+    "clarity": "VS2",
+    "usdPerCt": 1120
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "3.00-3.99ct",
+    "clarity": "VS2",
+    "usdPerCt": "VS2"
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "D",
+    "clarity": "VS2",
+    "usdPerCt": 780
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "E",
+    "clarity": "VS2",
+    "usdPerCt": 700
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F",
+    "clarity": "VS2",
+    "usdPerCt": 700
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Vivid Pink",
+    "clarity": "VS2",
+    "usdPerCt": 2550
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Intense Pink",
+    "clarity": "VS2",
+    "usdPerCt": 2550
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Vivid Blue",
+    "clarity": "VS2",
+    "usdPerCt": 1650
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Intense Blue",
+    "clarity": "VS2",
+    "usdPerCt": 1650
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Vivid Yellow",
+    "clarity": "VS2",
+    "usdPerCt": 1320
+  },
+  {
+    "caratRange": "0.70-0.99ct",
+    "color": "F Intense Yellow",
+    "clarity": "VS2",
+    "usdPerCt": 1320
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "5.00-5.99ct",
+    "clarity": "VS2",
+    "usdPerCt": "VS2"
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "D",
+    "clarity": "VS2",
+    "usdPerCt": 1440
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "E",
+    "clarity": "VS2",
+    "usdPerCt": 840
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F",
+    "clarity": "VS2",
+    "usdPerCt": 840
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Vivid Pink",
+    "clarity": "VS2",
+    "usdPerCt": 2925
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Intense Pink",
+    "clarity": "VS2",
+    "usdPerCt": 2925
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Vivid Blue",
+    "clarity": "VS2",
+    "usdPerCt": 2065
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Intense Blue",
+    "clarity": "VS2",
+    "usdPerCt": 2065
+  },
+  {
+    "caratRange": "1.00-1.49ct",
+    "color": "F Vivid Yellow",
+    "clarity": "VS2",
+    "usdPerCt": 1800
+  },
+  {
+    "caratRange": "1.50-1.99ct",
+    "color": "F Intense Yellow",
+    "clarity": "VS2",
+    "usdPerCt": 1800
+  }
+]
