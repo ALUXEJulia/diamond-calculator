@@ -35,7 +35,7 @@ export default function App() {
     return carat >= min && carat <= max;
   });
 
-  const usdPerCt = match ? match.usdPerCt : null;
+  const usdPerCt = match ? parseFloat(match.usdPerCt) : null;
   const price = match ? Math.round(usdPerCt * rate * carat) : null;
 
   const uniqueColors = [...new Set(data.map((d) => d.color))];
