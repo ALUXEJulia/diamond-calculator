@@ -44,6 +44,7 @@ export default function App() {
   return (
     <div className="container">
       <header>
+        <img src="/logo.png" alt="logo" className="logo" />
         <h1>鑽石價格計算機</h1>
       </header>
       <main>
@@ -84,6 +85,7 @@ export default function App() {
         </div>
       </main>
       <footer>© 2024 JOY COLORi</footer>
+      <div className="version">版本：v5.2</div>
     </div>
   );
 }
