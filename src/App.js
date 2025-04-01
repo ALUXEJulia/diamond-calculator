@@ -45,7 +45,7 @@ export default function App() {
     <div className="container">
       <header>
         <img src="/logo.png" alt="logo" className="logo" />
-        <h1>鑽石價格計算機</h1>
+        <h1>IGI培育鑽石價格查詢</h1>
       </header>
       <main>
         <div className="input-group">
