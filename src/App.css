@@ -1,54 +1,7 @@
-
-body {
-  margin: 0;
-  font-family: 'Noto Sans TC', sans-serif;
-  background: #fff;
-  color: #333;
-}
-.container {
-  max-width: 480px;
-  margin: 2rem auto;
-  padding: 1rem;
-  border: 1px solid #eee;
-  border-radius: 12px;
-  background-color: #fdfdfd;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-header {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-.logo {
-  height: 60px;
-  margin-bottom: 0.5rem;
-}
-h1 {
-  font-size: 1.5rem;
-  color: #b89f51;
-}
-.input-group, .output-group {
-  margin-bottom: 1rem;
-}
-input, select {
-  width: 100%;
-  padding: 0.5rem;
-  font-size: 1rem;
-  margin-top: 0.25rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-.price {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: #b89f51;
-}
-.warning {
-  color: #cc0000;
-  font-weight: bold;
-}
-footer {
-  text-align: center;
-  margin-top: 2rem;
-  font-size: 0.875rem;
-  color: #999;
-}
+body { font-family: sans-serif; padding: 1rem; }
+.container { max-width: 500px; margin: auto; }
+.input-group { margin-bottom: 1rem; }
+.output-group { margin-top: 2rem; }
+.price { color: #b89f51; font-size: 1.25rem; font-weight: bold; }
+.warning { color: #c00; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.875rem; color: #777; }
