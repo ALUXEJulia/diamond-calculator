@@ -3,7 +3,7 @@ import './App.css';
 
 export default function App() {
   const [carat, setCarat] = useState(0.35);
-  const [rate, setRate] = useState('');
+  const rate = 33.25;
   const [data, setData] = useState([]);
   const [color, setColor] = useState("");
   const [clarity, setClarity] = useState("");
@@ -52,10 +52,7 @@ export default function App() {
           <label>克拉數：</label>
           <input type="number" value={carat} step="0.01" onChange={(e) => setCarat(parseFloat(e.target.value))} />
         </div>
-        <div className="input-group">
-          <label>匯率（請手動輸入）：</label>
-          <input type="number" value={rate} step="0.1" onChange={(e) => setRate(e.target.value)} placeholder="請輸入當日匯率" />
-        </div>
+        <div className="rate-fixed">匯率：33.25</div>
         <div className="input-group">
           <label>顏色：</label>
           <select value={color} onChange={(e) => setColor(e.target.value)}>

@@ -58,3 +58,10 @@ footer {
   font-size: 0.75rem;
   color: #bbb;
 }
+.rate-fixed {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 0.75rem;
+  color: #888;
+}
