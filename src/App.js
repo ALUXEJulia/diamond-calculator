@@ -20,18 +20,19 @@ export default function App() {
   }, []);
 
   const getCaratMinMax = (range) => {
+    if (range.includes("ct+")) {
+      return [parseFloat(range), Infinity];
+    }
     const match = range.match(/(\d+(\.\d+)?)-(\d+(\.\d+)?)/);
     if (match) {
       return [parseFloat(match[1]), parseFloat(match[3])];
-    } else if (range.includes("ct+")) {
-      return [parseFloat(range), Infinity];
     }
     return [0, 0];
   };
 
   const candidates = data.filter((d) => d.color === color && d.clarity === clarity);
   const match = candidates.find((d) => {
-    const [min, max] = getCaratMinMax(d.caratRange.replace('ct', ''));
+    const [min, max] = getCaratMinMax(d.caratRange);
     return carat >= min && carat <= max;
   });
 
