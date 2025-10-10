@@ -1,122 +1,41 @@
-<!DOCTYPE html>
-<html lang="zh-Hant">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Diamond Calculator | IGI培育鑽石價格查詢</title>
-    <link rel="stylesheet" href="./App.css" />
-    <!-- React & ReactDOM via CDN -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <!-- Babel for in-browser transpilation of JSX -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  </head>
-  <body>
-    <div id="root"></div>
-
-    <script type="text/babel">
-      const {{ useState, useEffect }} = React;
-
-      function App() {{
-        const [carat, setCarat] = useState(0.35);
-        const rate = 33.25;
-        const [data, setData] = useState([]);
-        const [color, setColor] = useState("");
-        const [clarity, setClarity] = useState("");
-
-        useEffect(() => {{
-          fetch("./diamond_data.json")
-            .then((res) => res.json())
-            .then((d) => {{
-              setData(d);
-              if (d && d.length > 0) {{
-                const first = d[0];
-                setColor(first.color || "");
-                setClarity(first.clarity || "");
-              }}
-            }})
-            .catch((e) => console.error("load json failed", e));
-        }}, []);
-
-        const getCaratMinMax = (range) => {{
-          if (!range) return [0, 0];
-          if (range.includes("ct+")) {{
-            const num = parseFloat(range);
-            return [isNaN(num) ? 0 : num, Infinity];
-          }}
-          const match = range.match(/(\d+(\.\d+)?)-(\d+(\.\d+)?)/);
-          if (match) {{
-            return [parseFloat(match[1]), parseFloat(match[3])];
-          }}
-          return [0, 0];
-        }};
-
-        const candidates = data.filter((d) => d.color === color && d.clarity === clarity);
-        const matched = candidates.find((d) => {{
-          const [min, max] = getCaratMinMax(d.caratRange);
-          return carat >= min && carat <= max;
-        }});
-
-        const usdPerCt = matched ? Number(matched.usdPerCt) : null;
-        const price = matched && rate ? Math.round(usdPerCt * Number(rate) * Number(carat || 0)) : null;
-
-        const uniqueColors = Array.from(new Set(data.map((d) => d.color)));
-        const uniqueClarities = Array.from(new Set(data.filter((d) => d.color === color).map((d) => d.clarity)));
-
-        return (
-          <div className="container">
-            <header>
-              <img src="./logo.png" alt="logo" className="logo" />
-              <h1>IGI培育鑽石價格查詢</h1>
-            </header>
-            <main>
-              <div className="input-group">
-                <label>克拉數：</label>
-                <input
-                  type="number"
-                  value={{carat}}
-                  step="0.01"
-                  min="0.01"
-                  onChange={{(e) => setCarat(parseFloat(e.target.value))}}
-                />
-              </div>
-              <div className="rate-fixed">匯率：33.25</div>
-              <div className="input-group">
-                <label>顏色：</label>
-                <select value={{color}} onChange={{(e) => setColor(e.target.value)}}>
-                  {{uniqueColors.map((c) => (
-                    <option key={{c}} value={{c}}>{{c}}</option>
-                  ))}}
-                </select>
-              </div>
-              <div className="input-group">
-                <label>淨度：</label>
-                <select value={{clarity}} onChange={{(e) => setClarity(e.target.value)}}>
-                  {{uniqueClarities.map((c) => (
-                    <option key={{c}} value={{c}}>{{c}}</option>
-                  ))}}
-                </select>
-              </div>
-              <div className="output-group">
-                {{matched && rate ? (
-                  <>
-                    <p>每克拉價格 (USD): <strong>{{usdPerCt}}</strong></p>
-                    <p>計算區間: <strong>{{matched.caratRange}}</strong></p>
-                    <p className="price">售價 (TWD): <strong>{{price.toLocaleString()}} 元</strong></p>
-                  </>
-                ) : (
-                  <p className="warning">請選擇規格並輸入匯率以計算價格</p>
-                )}}
-              </div>
-            </main>
-            <footer>© 2024 JOY COLORi</footer>
-            <div className="version">版本：v5.2</div>
-          </div>
-        );
-      }}
-
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render(<App />);
-    </script>
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Songti TC'; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Songti TC'; -webkit-text-stroke: #000000; min-height: 17.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8" /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Diamond Calculator&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="./App.css" /&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;body&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;noscript&gt;You need to enable JavaScript to run this app.&lt;/noscript&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div id="root"&gt;&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;!-- React and ReactDOM --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/react@18/umd/react.production.min.js"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"&gt;&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;!-- Babel for JSX --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/@babel/standalone/babel.min.js"&gt;&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;!-- Your app scripts --&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script type="text/babel" src="./App.js"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script type="text/babel" src="./index.js"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
 </html>
