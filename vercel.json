@@ -3,26 +3,14 @@
   "public": true,
   "builds": [
     {
-      "src": "igi-price.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "logo.png",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "diamond_data.json",
+      "src": "public/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/igi-price.html"
+      "dest": "public/$1"
     }
   ]
 }
