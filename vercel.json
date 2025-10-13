@@ -2,11 +2,27 @@
   "version": 2,
   "public": true,
   "builds": [
-    { "src": "**/*.html", "use": "@vercel/static" },
-    { "src": "**/*.json", "use": "@vercel/static" },
-    { "src": "public/**", "use": "@vercel/static" }
+    {
+      "src": "igi-price.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "logo.png",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "diamond_data.json",
+      "use": "@vercel/static"
+    }
   ],
   "routes": [
-    { "src": "/logo.png", "dest": "/public/logo.png" }
+    {
+      "src": "/(.*)",
+      "dest": "/igi-price.html"
+    }
   ]
 }
