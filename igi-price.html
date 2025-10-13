@@ -23,7 +23,7 @@
     <h1>IGI 培育鑽石價格查詢</h1>
 
     <label>克拉數：</label>
-    <input type="number" id="carat" step="0.01" placeholder="例如 0.35" />
+    <input type="number" id="carat" step="0.01" placeholder="例如 1.50" />
 
     <label>顏色：</label>
     <select id="color"></select>
@@ -33,7 +33,7 @@
 
     <div class="result" id="result">請輸入資料後查詢</div>
 
-    <footer>© 2024 JOY COLORi<br>版本：v5.2</footer>
+    <footer>© 2025 JOY COLORi<br>版本：v10.14</footer>
   </div>
 
   <script>
@@ -47,7 +47,75 @@
       "0.40-0.49": {
         "D": { "IF": 1045, "VVS1": 905, "VVS2": 685, "VS1": 685, "VS2": 670 }
       },
-      // ... 其他區間，如 0.50-0.69, 0.70-0.99, 1.00-1.99, 2.00-2.99, 3.00-3.99, 4.00-4.99, 5.00-5.99, 6.00+
+      "0.50-0.69": {
+        "D": { "IF": 1045, "VVS1": 905, "VVS2": 700, "VS1": 685, "VS2": 570 },
+        "E": { "VVS1": 885, "VVS2": 685, "VS1": 670, "VS2": 650 },
+        "F": { "VVS1": 885, "VVS2": 685, "VS1": 670, "VS2": 650 },
+        "F Vivid Pink": { "VVS2": 1850, "VS1": 1850, "VS2": 1850 },
+        "F Intense Pink": { "VVS2": 2195, "VS1": 2195, "VS2": 2195 }
+      },
+      "0.70-0.99": {
+        "D": { "IF": 1155, "VVS1": 1005, "VVS2": 770, "VS1": 755, "VS2": 740 },
+        "E": { "VVS1": 985, "VVS2": 755, "VS1": 740, "VS2": 725 },
+        "F": { "VVS1": 985, "VVS2": 755, "VS1": 740, "VS2": 725 },
+        "F Vivid Pink": { "VVS2": 1850, "VS1": 1850, "VS2": 1850 },
+        "F Intense Pink": { "VVS2": 2195, "VS1": 2195, "VS2": 2195 }
+      },
+      "1.00-1.99": {
+        "D": { "IF": 1155, "VVS1": 1005, "VVS2": 770, "VS1": 755, "VS2": 740 },
+        "E": { "VVS1": 985, "VVS2": 755, "VS1": 740, "VS2": 725 },
+        "F": { "VVS1": 985, "VVS2": 755, "VS1": 740, "VS2": 725 },
+        "F Vivid Pink": { "VVS2": 2775, "VS1": 2775, "VS2": 2775 },
+        "F Intense Pink": { "VVS2": 2635, "VS1": 2635, "VS2": 2635 },
+        "F Vivid Blue": { "VVS2": 1665, "VS1": 1665, "VS2": 1665 },
+        "F Intense Blue": { "VVS2": 1585, "VS1": 1585, "VS2": 1585 },
+        "F Vivid Yellow": { "VVS2": 1760, "VS1": 1760, "VS2": 1760 },
+        "F Intense Yellow": { "VVS2": 1670, "VS1": 1670, "VS2": 1670 }
+      },
+      "2.00-2.99": {
+        "D": { "IF": 1480, "VVS1": 1285, "VVS2": 990, "VS1": 975, "VS2": 955 },
+        "E": { "VVS1": 1265, "VVS2": 975, "VS1": 955, "VS2": 925 },
+        "F": { "VVS1": 1265, "VVS2": 975, "VS1": 955, "VS2": 925 },
+        "F Vivid Pink": { "VVS2": 2775, "VS1": 2775, "VS2": 2775 },
+        "F Intense Pink": { "VVS2": 2635, "VS1": 2635, "VS2": 2635 },
+        "F Vivid Blue": { "VVS2": 1850, "VS1": 1850, "VS2": 1850 },
+        "F Intense Blue": { "VVS2": 1760, "VS1": 1760, "VS2": 1760 },
+        "F Vivid Yellow": { "VVS2": 2310, "VS1": 2310, "VS2": 2310 },
+        "F Intense Yellow": { "VVS2": 2195, "VS1": 2195, "VS2": 2195 }
+      },
+      "3.00-3.99": {
+        "D": { "IF": 1480, "VVS1": 1285, "VVS2": 990, "VS1": 975, "VS2": 955 },
+        "E": { "VVS1": 1265, "VVS2": 975, "VS1": 955, "VS2": 940 },
+        "F": { "VVS1": 1265, "VVS2": 975, "VS1": 955, "VS2": 925 },
+        "F Vivid Pink": { "VVS2": 2775, "VS1": 2775, "VS2": 2775 },
+        "F Intense Pink": { "VVS2": 2635, "VS1": 2635, "VS2": 2635 },
+        "F Vivid Blue": { "VVS2": 2310, "VS1": 2310, "VS2": 2310 },
+        "F Intense Blue": { "VVS2": 2195, "VS1": 2195, "VS2": 2195 },
+        "F Vivid Yellow": { "VVS2": 3235, "VS1": 3235, "VS2": 3235 },
+        "F Intense Yellow": { "VVS2": 3075, "VS1": 3075, "VS2": 3075 }
+      },
+      "4.00-4.99": {
+        "D": { "IF": 2310, "VVS1": 2005, "VVS2": 1540, "VS1": 1525, "VS2": 1510 },
+        "E": { "VVS1": 1985, "VVS2": 1525, "VS1": 1510, "VS2": 1495 },
+        "F": { "VVS1": 1985, "VVS2": 1525, "VS1": 1510, "VS2": 1495 },
+        "F Vivid Pink": { "VVS2": 2775, "VS1": 2775, "VS2": 2775 },
+        "F Intense Pink": { "VVS2": 2635, "VS1": 2635, "VS2": 2635 },
+        "F Vivid Blue": { "VVS2": 2310, "VS1": 2310, "VS2": 2310 },
+        "F Intense Blue": { "VVS2": 2195, "VS1": 2195, "VS2": 2195 },
+        "F Vivid Yellow": { "VVS2": 3235, "VS1": 3235, "VS2": 3235 },
+        "F Intense Yellow": { "VVS2": 3075, "VS1": 3075, "VS2": 3075 }
+      },
+      "5.00-5.99": {
+        "D": { "IF": 2310, "VVS1": 2005, "VVS2": 1540, "VS1": 1525, "VS2": 1510 },
+        "E": { "VVS1": 1985, "VVS2": 1525, "VS1": 1510, "VS2": 1495 },
+        "F": { "VVS1": 1985, "VVS2": 1525, "VS1": 1510, "VS2": 1495 },
+        "F Vivid Pink": { "VVS2": 2775, "VS1": 2775, "VS2": 2775 },
+        "F Intense Pink": { "VVS2": 2635, "VS1": 2635, "VS2": 2635 },
+        "F Vivid Blue": { "VVS2": 2310, "VS1": 2310, "VS2": 2310 },
+        "F Intense Blue": { "VVS2": 2195, "VS1": 2195, "VS2": 2195 },
+        "F Vivid Yellow": { "VVS2": 3235, "VS1": 3235, "VS2": 3235 },
+        "F Intense Yellow": { "VVS2": 3075, "VS1": 3075, "VS2": 3075 }
+      },
       "6.00+": {
         "D": { "IF": 3235, "VVS1": 2805, "VVS2": 2160, "VS1": 2145, "VS2": 2130 },
         "E": { "VVS1": 2785, "VVS2": 2145, "VS1": 2130, "VS2": 2110 },
@@ -107,8 +175,8 @@
         resultDiv.innerHTML = '找不到對應的價格區間';
         return;
       }
-      const usd = priceTable[range][color]?.[clarity];
-      if (!usd) {
+      const usd = priceTable[range]?.[color]?.[clarity];
+      if (usd === undefined) {
         resultDiv.innerHTML = '此條件尚無定價';
         return;
       }
@@ -125,4 +193,3 @@
   </script>
 </body>
 </html>
-
